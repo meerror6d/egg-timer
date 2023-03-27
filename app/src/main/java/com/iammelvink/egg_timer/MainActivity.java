@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         timerSeekBar.setEnabled(true);
         countDownTimer.cancel();
         mPlayer.start();
-        goBtn.setText("GO!");
+        goBtn.setText("START!");
         counterActive = false;
     }
 
